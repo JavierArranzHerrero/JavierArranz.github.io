@@ -1,94 +1,51 @@
-# Welcome to my Personal Website
+# 🚀 **Welcome to My Personal Portfolio**
 
-A performant, accessible, progressive React portfolio template that uses the [GitHub REST API](https://docs.github.com/en/free-pro-team@latest/rest).
+Hello and welcome to my GitHub space! This repository hosts my **personal portfolio** where you can learn more about me, my projects, and skills.
 
-Add your GitHub username once and all of your info will automatically be updated. Deploy to GitHub pages in a few simple steps.
+## 🌟 Who am I?
 
-## [Live Demo](https://mshuber1981.github.io/github-react-portfolio-template/#/)
+I’m **Javier Arranz**. Passionate about technology, web development, and data science. I love creating innovative solutions to solve real-world problems and improving user experiences through intuitive interfaces.
 
-[Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+## 📌 What can you find in this repository?
 
-![Page Speed](/README_images/speed.png)
+This repository contains:
 
-## Light And Dark Themes
+- An **interactive personal portfolio** showcasing my projects and skills.
+- **Information about my professional and academic experiences.**
+- **Links to my social networks and contact details.**
 
-![Hero Light](/README_images/hero.png)
+You can access my online portfolio here: [Your GitHub Pages Link](https://JavierArranzHerrero.github.io)
 
-![Hero Dark](/README_images/heroDark.png)
+## 💻 Technologies I use
 
-### Getting Started
+Here are some of the technologies I work with and that you’ll see in my projects:
 
-1. [Create a repository from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-2. [Clone your new repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-3. Make sure [Node](https://nodejs.org/en/) is installed
-4. Open your project and install the dependencies
+- **Frontend:** HTML, CSS, JavaScript, React
+- **Backend:** Node.js, Express
+- **Databases:** MongoDB, MySQL
+- **Others:** Git, GitHub, Firebase, Docker
 
-   ```bash
-   npm install
-   ```
+## 📚 Projects
 
-5. Navigate to the src directory and open src/config.js
-6. Add your GitHub username ([src/config.js](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/src/config.js#L18) line 18)
+### 🌍 **Project 1: [Project Name]**
+Brief description of the project, technologies used, and the achievements you gained.
 
-   ```javascript
-   /* START HERE
-   ************************************************************** 
-     Add your GitHub username (string - "YourUsername") below.
-   */
-   export const githubUsername = "Your GitHub username here";
-   ```
+### 📊 **Project 2: [Project Name]**
+Brief description of the project, technologies used, and the achievements you gained.
 
-7. Start the development server to view the results
+### 🔧 **Project 3: [Project Name]**
+Brief description of the project, technologies used, and the achievements you gained.
 
-   ```bash
-   npm start
-   ```
+## 📬 How to contact me?
 
-### Updating the Contact section
+If you’d like to get in touch with me, feel free to message me through any of these channels:
 
-![Projects](/README_images/contact.png)
+- **Email:** j.arranzherrero@gemail.com
+- **LinkedIn:** https://www.linkedin.com/in/javier-arranz-herrero-phd-415561184/
+- **ORCID::** https://orcid.org/my-orcid?orcid=0000-0002-4107-2460
 
-1. The contact form uses [Formspree](https://formspree.io/), create an account and add your endpoint URL ([src/config.js](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/src/config.js#L114) line 114)
 
-   ```javascript
-   /* Contact Info
-   ************************************************************** 
-     Add your formspree endpoint below.
-     https://formspree.io/
-   */
-   export const formspreeUrl = "https://formspree.io/f/YourEndpoint";
-   ```
+---
 
-### Deploy
+Thank you for visiting my repository! I hope you enjoy exploring my projects, and feel free to leave me any feedback or suggestions. 😊
 
-A helpful guide for Create React App deployments with GitHub Pages can be found [here](https://create-react-app.dev/docs/deployment#github-pages).
-
-1. Update the homepage value ([package.json](https://github.com/mshuber1981/github-react-portfolio-template/blob/main/package.json#L3) line 3)
-
-   ```json
-   "homepage": "https://YourUserName.github.io/your-repo/",
-   ```
-
-2. Run the deploy command
-
-   ```bash
-   npm run deploy
-   ```
-
-### Customization Options
-
-Checkout the [Wiki](https://github.com/mshuber1981/github-react-portfolio-template/wiki) for additional customization options:
-
-- [Updating the Navbar Logo](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Navbar-Logo)
-- [Updating the Main section](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Main-section)
-- [Updating the About Me section](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-About-Me-section)
-- [Updating the Skills section](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Skills-section)
-- [Updating the Projects section](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Projects-section)
-- [Updating the theme color](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-theme-color)
-- [Updating the Footer icons theme (light or dark)](https://github.com/mshuber1981/github-react-portfolio-template/wiki/Updating-the-Footer-icons-theme)
-
-[Back to top :top:](#a-react-portfolio-template-for-github)
-
-### License
-
-[MIT](https://choosealicense.com/licenses/mit/)
