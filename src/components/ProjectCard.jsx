@@ -17,20 +17,20 @@ const StyledCard = styled.div`
     border: var(--border);
     transition: all 0.2s ease-in-out;
     background: ${({ theme }) =>
-      theme.name === "light" ? "" : "var(--bs-gray)"};
+      theme.name === "light" ? "" : "var(--bs-white)"};
     box-shadow: ${({ theme }) =>
-      theme.name === "light"
-        ? "0 3px 10px rgb(0 0 0 / 0.2)"
-        : "0 3px 10px rgb(255 255 255 / 0.2)"};
+      theme.name === "dark"
+        ? "0 5px 10px rgb(0 0 0 / 0.2)"
+        : "0 5px 10px rgb(255 255 255 / 0.2)"};
 
     .card-img-top {
-      height: 50%;
+      height: 70%;
       object-fit: contain;
     }
 
     .card-link {
       text-decoration: none;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
 
       &:hover {
         color: ${({ theme }) =>
@@ -81,13 +81,6 @@ const ProjectCard = ({ demo, description, image, name, url }) => {
         />
         <Card.Body className="overflow-auto text-center">
           <Card.Title>{name}</Card.Title>
-          <Card.Text>{description}</Card.Text>
-          {demo !== (undefined && null && "") ? (
-            <Card.Link href={demo}>
-              {"Live Demo "}
-              <Icon icon="icon-park-outline:code-computer" />
-            </Card.Link>
-          ) : null}
         </Card.Body>
         <Card.Footer className="text-center">
           <Card.Link href={url}>

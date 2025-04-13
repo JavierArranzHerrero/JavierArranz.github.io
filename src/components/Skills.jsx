@@ -23,7 +23,7 @@ const Skills = () => {
           <Row className="mt-3 align-items-center">
             {skillData.map((skills) => {
               return (
-                <Col xs={4} key={skills.id} className="my-md-5">
+                <Col xs={2} key={skills.id} className="my-md-5">
                   <figure>
                     {skills.skill}
                     <figcaption>{skills.name}</figcaption>
@@ -33,13 +33,13 @@ const Skills = () => {
             })}
           </Row>
           {resume && (
-            <a href={resume}>
+            <a href={resume} download>
               <Button
                 size="lg"
-                variant={theme === "light" ? "outline-dark" : "outline-light"}
+                variant={theme === "light" ? "outline-grey-dark" : "outline-light"}
                 className="mt-5"
               >
-                R&eacute;sum&eacute;
+                Download my CV
               </Button>
             </a>
           )}

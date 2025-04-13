@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 // Icons
 import { Icon } from "@iconify/react";
 // Images
-import Logo from "../images/logo.svg";
+import Logo from "../images/VIIRUS_logo1.png";
 import { Light, Dark } from "../config";
 // Components
 import { useErrorBoundary } from "react-error-boundary";
@@ -20,7 +20,7 @@ const spin = keyframes`
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
 `;
 
@@ -77,7 +77,7 @@ const StyledHero = styled.header`
         theme.name === "light"
           ? `url(${Light}) top center fixed no-repeat`
           : `url(${Dark}) top center fixed no-repeat`};
-      background-size: 100vw auto;
+      background-size: 80vw auto;
     }
   }
 
@@ -88,6 +88,25 @@ const StyledHero = styled.header`
           ? `url(${Light}) center center fixed no-repeat`
           : `url(${Dark}) center center fixed no-repeat`};
       background-size: cover;
+    }
+  }
+
+.title {
+    font-size: 5.8rem;
+    font-weight: 600;
+  }
+
+  .text-section {
+    text-align: center;
+
+    /* 👇 Descomenta este si la imagen está a la izquierda */
+    /* margin-left: 9rem; */
+
+    /* 👇 Este está activado si la imagen está a la derecha */
+    margin-right: 4rem; 
+
+    @media screen and (min-width: 768px) {
+      margin-right: 6rem;
     }
   }
 `;
@@ -106,20 +125,29 @@ const Hero = ({ name }) => {
       <Container>
         <Row className="align-items-center text-center">
           <Col>
-            <h1 className="mb-3 display-3 title">
-              {name === null ? "null" : name}
-            </h1>
-            <div className="d-flex align-items-center justify-content-center">
-              <SocialLinks />
-            </div>
-          </Col>
+  <h1 className="mb-3 display-3 title">
+    {name === null ? "null" : name}
+  </h1>
+
+  <img
+    src={Logo}
+    alt="Logo pequeño"
+    className="my-3"
+    style={{ maxWidth: "180px" }}
+  />
+
+  <div className="d-flex align-items-center justify-content-center">
+    <SocialLinks />
+  </div>
+</Col>
           <Col className="d-none d-md-block">
-            <img
-              src={Logo}
-              alt="React Logo"
-              className="w-75 mx-auto hero-img"
-            />
-          </Col>
+  <img
+    src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+    alt=""
+    className="w-75 mx-auto hero-img"
+    style={{ visibility: "hidden" }}
+  />
+</Col>
         </Row>
         <Row className="align-items-end down-container">
           <Col className="m-4 text-center">
@@ -141,6 +169,7 @@ const Hero = ({ name }) => {
         </Button>
       </Container>
     </StyledHero>
+
   );
 };
 

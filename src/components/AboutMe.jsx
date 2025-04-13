@@ -39,7 +39,10 @@ const AboutMe = ({ avatar_url, bio, moreInfo }) => {
             <Col className="d-flex flex-column text-center">
               <Container>
                 {bio && <p>{bio}</p>}
-                {moreInfo && <p>{moreInfo}</p>}
+                {moreInfo &&
+  moreInfo.split("\n").map((line, index) => (
+    <p key={index}>{line}</p>
+))}
               </Container>
             </Col>
             <Col className="d-none d-md-block text-center">
@@ -48,7 +51,7 @@ const AboutMe = ({ avatar_url, bio, moreInfo }) => {
                 alt="GitHub Avatar"
                 loading="lazy"
                 className="mx-auto rounded-circle border border-primary-subtle"
-                style={{ width: "15rem", height: "15rem" }}
+                style={{ width: "25rem", height: "25rem" }}
               />
             </Col>
           </Row>

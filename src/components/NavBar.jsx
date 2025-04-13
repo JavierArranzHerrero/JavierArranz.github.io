@@ -75,8 +75,8 @@ const NavBar = ({ Logo = defaultLogo, callBack, closeDelay = 125 }) => {
             <img
               alt="Logo"
               src={Logo === null ? defaultLogo : Logo}
-              width="35"
-              height="35"
+              width="45"
+              height="45"
               className="rounded-circle logo-img"
             />
           </Navbar.Brand>

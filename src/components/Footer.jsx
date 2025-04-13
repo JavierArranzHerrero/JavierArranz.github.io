@@ -8,15 +8,15 @@ import SocialLinks from "./SocialLinks";
 
 // #region styled-components
 const StyledFooter = styled.footer`
-  height: calc(var(--nav-height) + 1rem);
-  background: var(--bs-primary);
+  height: calc(var(--nav-height) + 0.3rem);
+  background: var(--bs-grey);
 
   a {
     color: ${({ $mode }) => {
       if ($mode !== undefined && $mode !== null) {
-        return $mode.toLowerCase() === "light"
+        return $mode.toLowerCase() === "white"
           ? "var(--bs-light)"
-          : "var(--bs-gray-dark)";
+          : "var(--bs-gray)";
       } else {
         return "var(--bs-gray-dark)";
       }
@@ -25,7 +25,7 @@ const StyledFooter = styled.footer`
     &:hover {
       color: ${({ $mode }) => {
         if ($mode !== undefined && $mode !== null) {
-          return $mode.toLowerCase() === "light"
+          return $mode.toLowerCase() === "dark"
             ? "var(--bs-gray-dark)"
             : "var(--bs-light)";
         } else {

@@ -13,7 +13,7 @@ const TitleDiv = styled.div`
 
   .underline {
     height: 0.25rem;
-    width: 75%;
+    width: 100%;
     min-width: 3rem;
     border-radius: 0.25rem;
     margin: 0 auto 0 auto;
