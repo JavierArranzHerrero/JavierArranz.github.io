@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/JavierArranz.github.io/static/css/main.f3612727.css",
+    "main.js": "/JavierArranz.github.io/static/js/main.61313159.js",
+    "static/media/VIIRUS_logo.png": "/JavierArranz.github.io/static/media/VIIRUS_logo.eadca0633b2a6f295491.png",
+    "static/media/Metagenomics.png": "/JavierArranz.github.io/static/media/Metagenomics.be0b2f2efd92a00e5afe.png",
+    "static/media/Logo_JAH.png": "/JavierArranz.github.io/static/media/Logo_JAH.b0ccb5a8ca9b968aeeff.png",
+    "static/media/Metagenomics2.png": "/JavierArranz.github.io/static/media/Metagenomics2.3b1307e099356ce376ec.png",
+    "static/media/RNASeq.png": "/JavierArranz.github.io/static/media/RNASeq.712df978812cd10e0a87.png",
+    "static/media/hero-light.jpg": "/JavierArranz.github.io/static/media/hero-light.78b77836d8aee4d7d3cb.jpg",
+    "static/media/Fondopantalla.png": "/JavierArranz.github.io/static/media/Fondopantalla.8581acf2018031433d76.png",
+    "service-worker.js": "/JavierArranz.github.io/service-worker.js",
+    "static/media/GH.svg": "/JavierArranz.github.io/static/media/GH.b9e9a9aa6f05e9dfe5dcb8991bda3e4d.svg",
+    "index.html": "/JavierArranz.github.io/index.html",
+    "static/media/logo.svg": "/JavierArranz.github.io/static/media/logo.c4100c75d7e73f8fab978669fd6a8613.svg",
+    "static/media/defaultNavLogo.svg": "/JavierArranz.github.io/static/media/defaultNavLogo.688007232406a58fddf2d424550478b3.svg",
+    "main.f3612727.css.map": "/JavierArranz.github.io/static/css/main.f3612727.css.map",
+    "main.61313159.js.map": "/JavierArranz.github.io/static/js/main.61313159.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3612727.css",
+    "static/js/main.61313159.js"
+  ]
+}
