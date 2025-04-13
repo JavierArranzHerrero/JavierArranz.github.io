@@ -92,8 +92,9 @@ const StyledHero = styled.header`
   }
 
 .title {
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 600;
+    margin-top: 6rem;
   }
 
   .text-section {
