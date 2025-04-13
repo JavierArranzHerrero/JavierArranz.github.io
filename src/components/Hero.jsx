@@ -92,7 +92,7 @@ const StyledHero = styled.header`
   }
 
 .title {
-    font-size: 5.8rem;
+    font-size: 4rem;
     font-weight: 600;
   }
 
