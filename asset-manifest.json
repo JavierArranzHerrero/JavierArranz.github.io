@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/JavierArranz.github.io/static/css/main.5780aa82.css",
-    "main.js": "/JavierArranz.github.io/static/js/main.f663471d.js",
+    "main.js": "/JavierArranz.github.io/static/js/main.4f7583ab.js",
+    "static/media/Fondopantalla.png": "/JavierArranz.github.io/static/media/Fondopantalla.3d47dbc9344067949ead.png",
+    "static/media/RNASeq.png": "/JavierArranz.github.io/static/media/RNASeq.d0345c0b909bf914d13b.png",
     "static/media/VIIRUS_logo.png": "/JavierArranz.github.io/static/media/VIIRUS_logo.eadca0633b2a6f295491.png",
-    "static/media/Fondopantalla.png": "/JavierArranz.github.io/static/media/Fondopantalla.d6f3c9a6af4c77ab2597.png",
-    "static/media/Metagenomics.png": "/JavierArranz.github.io/static/media/Metagenomics.be0b2f2efd92a00e5afe.png",
+    "static/media/Metagenomics2.png": "/JavierArranz.github.io/static/media/Metagenomics2.be0b2f2efd92a00e5afe.png",
+    "static/media/Metagenomics.png": "/JavierArranz.github.io/static/media/Metagenomics.9028fac963386ecda1de.png",
     "static/media/Logo_JAH.png": "/JavierArranz.github.io/static/media/Logo_JAH.b0ccb5a8ca9b968aeeff.png",
-    "static/media/Metagenomics2.png": "/JavierArranz.github.io/static/media/Metagenomics2.3b1307e099356ce376ec.png",
     "static/media/VIIRUS_logo1.png": "/JavierArranz.github.io/static/media/VIIRUS_logo1.e89f8785573083180ec6.png",
-    "static/media/RNASeq.png": "/JavierArranz.github.io/static/media/RNASeq.712df978812cd10e0a87.png",
     "static/media/hero-light.jpg": "/JavierArranz.github.io/static/media/hero-light.78b77836d8aee4d7d3cb.jpg",
     "service-worker.js": "/JavierArranz.github.io/service-worker.js",
     "static/media/GH.svg": "/JavierArranz.github.io/static/media/GH.b9e9a9aa6f05e9dfe5dcb8991bda3e4d.svg",
@@ -16,10 +16,10 @@
     "static/media/logo.svg": "/JavierArranz.github.io/static/media/logo.c4100c75d7e73f8fab978669fd6a8613.svg",
     "static/media/defaultNavLogo.svg": "/JavierArranz.github.io/static/media/defaultNavLogo.688007232406a58fddf2d424550478b3.svg",
     "main.5780aa82.css.map": "/JavierArranz.github.io/static/css/main.5780aa82.css.map",
-    "main.f663471d.js.map": "/JavierArranz.github.io/static/js/main.f663471d.js.map"
+    "main.4f7583ab.js.map": "/JavierArranz.github.io/static/js/main.4f7583ab.js.map"
   },
   "entrypoints": [
     "static/css/main.5780aa82.css",
-    "static/js/main.f663471d.js"
+    "static/js/main.4f7583ab.js"
   ]
 }
